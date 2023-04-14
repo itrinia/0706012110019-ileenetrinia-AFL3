@@ -10,8 +10,9 @@
 		0428FB7A29E8E8DA00D66720 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB7929E8E8DA00D66720 /* CircleImage.swift */; };
 		0428FB8429E8ED3100D66720 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB8329E8ED3100D66720 /* MapView.swift */; };
 		0428FB8629E8F0FA00D66720 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0428FB8529E8F0FA00D66720 /* landmarkData.json */; };
-		0428FB8829E8F11C00D66720 /* Landmark.swift..swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB8729E8F11C00D66720 /* Landmark.swift..swift */; };
 		0428FB8A29E8F1FD00D66720 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB8929E8F1FD00D66720 /* ModelData.swift */; };
+		0428FB8F29E8F36B00D66720 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB8E29E8F36B00D66720 /* LandmarkRow.swift */; };
+		0428FB9129E8F42400D66720 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB9029E8F42400D66720 /* Landmark.swift */; };
 		04AD1C3D29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD1C3C29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift */; };
 		04AD1C3F29E4EE4D00114C5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD1C3E29E4EE4D00114C5D /* ContentView.swift */; };
 		04AD1C4129E4EE4F00114C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AD1C4029E4EE4F00114C5D /* Assets.xcassets */; };
@@ -22,8 +23,9 @@
 		0428FB7929E8E8DA00D66720 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		0428FB8329E8ED3100D66720 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0428FB8529E8F0FA00D66720 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
-		0428FB8729E8F11C00D66720 /* Landmark.swift..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift..swift; sourceTree = "<group>"; };
 		0428FB8929E8F1FD00D66720 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0428FB8E29E8F36B00D66720 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		0428FB9029E8F42400D66720 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		04AD1C3929E4EE4D00114C5D /* 0706012110019-ileenetrinia-AFL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110019-ileenetrinia-AFL3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AD1C3C29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110019_ileenetrinia_AFL3App.swift; sourceTree = "<group>"; };
 		04AD1C3E29E4EE4D00114C5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 				04AD1C3E29E4EE4D00114C5D /* ContentView.swift */,
 				0428FB7929E8E8DA00D66720 /* CircleImage.swift */,
 				0428FB8329E8ED3100D66720 /* MapView.swift */,
+				0428FB8E29E8F36B00D66720 /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -56,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				0428FB8929E8F1FD00D66720 /* ModelData.swift */,
-				0428FB8729E8F11C00D66720 /* Landmark.swift..swift */,
+				0428FB9029E8F42400D66720 /* Landmark.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,8 +183,9 @@
 				04AD1C3F29E4EE4D00114C5D /* ContentView.swift in Sources */,
 				0428FB8429E8ED3100D66720 /* MapView.swift in Sources */,
 				04AD1C3D29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift in Sources */,
+				0428FB9129E8F42400D66720 /* Landmark.swift in Sources */,
 				0428FB7A29E8E8DA00D66720 /* CircleImage.swift in Sources */,
-				0428FB8829E8F11C00D66720 /* Landmark.swift..swift in Sources */,
+				0428FB8F29E8F36B00D66720 /* LandmarkRow.swift in Sources */,
 				0428FB8A29E8F1FD00D66720 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,9 +1,10 @@
 //
-//  Landmark.swift..swift
+//  Landmark.swift
 //  0706012110019-ileenetrinia-AFL3
 //
 //  Created by MacBook Pro on 14/04/23.
 //
+
 
 import Foundation
 import SwiftUI
