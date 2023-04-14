@@ -12,11 +12,18 @@ struct LandmarkList: View {
         //kyknya ngerepeat sesuai id yg disetting? harusnya yes
         // jd klo isinya itu ada parameter landmark [0][1] brti repeat 0,1 aja tp berkali2
         // ^berlaku klo paramater id nya exist, semua dimunculin
-//        List(landmarks, id: \.id) { landmark in
-//            LandmarkRow(landmark: landmarks[0])
-//            LandmarkRow(landmark: landmarks[1])
-        List(landmarks) { landmark in
-            LandmarkRow(landmark: landmark)
+        //        List(landmarks, id: \.id) { landmark in
+        //            LandmarkRow(landmark: landmarks[0])
+        //            LandmarkRow(landmark: landmarks[1])
+        NavigationView {
+            List(landmarks) { landmark in
+                NavigationLink {
+                    LandmarkDetail()
+                } label: {
+                    LandmarkRow(landmark: landmark)
+                }
+            }
+            .navigationTitle("Landmarks")
         }
     }
 }
