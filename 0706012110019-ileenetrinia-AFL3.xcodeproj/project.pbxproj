@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0428FB7A29E8E8DA00D66720 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB7929E8E8DA00D66720 /* CircleImage.swift */; };
+		0428FB8429E8ED3100D66720 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB8329E8ED3100D66720 /* MapView.swift */; };
 		04AD1C3D29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD1C3C29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift */; };
 		04AD1C3F29E4EE4D00114C5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD1C3E29E4EE4D00114C5D /* ContentView.swift */; };
 		04AD1C4129E4EE4F00114C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AD1C4029E4EE4F00114C5D /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		0428FB7929E8E8DA00D66720 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0428FB8329E8ED3100D66720 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		04AD1C3929E4EE4D00114C5D /* 0706012110019-ileenetrinia-AFL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110019-ileenetrinia-AFL3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AD1C3C29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110019_ileenetrinia_AFL3App.swift; sourceTree = "<group>"; };
 		04AD1C3E29E4EE4D00114C5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				04AD1C4029E4EE4F00114C5D /* Assets.xcassets */,
 				04AD1C4229E4EE4F00114C5D /* Preview Content */,
 				0428FB7929E8E8DA00D66720 /* CircleImage.swift */,
+				0428FB8329E8ED3100D66720 /* MapView.swift */,
 			);
 			path = "0706012110019-ileenetrinia-AFL3";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AD1C3F29E4EE4D00114C5D /* ContentView.swift in Sources */,
+				0428FB8429E8ED3100D66720 /* MapView.swift in Sources */,
 				04AD1C3D29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift in Sources */,
 				0428FB7A29E8E8DA00D66720 /* CircleImage.swift in Sources */,
 			);
