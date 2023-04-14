@@ -9,30 +9,44 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-//        This is view
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.green)
+            MapView()
+            //ignoressafearea biarr naik n maksimal bgt mentok smpe atas (gada putih2 di atas)
+                .ignoresSafeArea(edges: .top)
+                .frame(height: 300)
+            
+            //dipanggil circle image nya (udah disetting jd circle di file circle image
+            CircleImage()
+            //disetting lagi biar numpuk di atasnya map view
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
             VStack(alignment: .leading) {
-                VStack {
-                    Text("Turtle Rock")
-                        .font(.title)
-                    .foregroundColor(.green)
-                    HStack {
-                        HStack {
-                            Text("Joshua Tree National Park")
-                                .font(.subheadline)
-                            Spacer()
-                            Text("California")
-                                .font(.subheadline)
-                        }
-                        .padding()
-                    }
+                Text("Turtle Rock")
+                    .font(.title)
+                
+                HStack {
+                    Text("Joshua Tree National Park")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("California")
+                        .font(.subheadline)
                 }
+                
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+                //divider pemisah - kek garis gt
+                Divider()
+                
+                Text("About Turtle Rock")
+                    .font(.title2)
+                Text("Descriptive text goes here.")
             }
+            .padding()
+            
+            //dikasi spacer biar dorong elemen2 nya ke atas biar rapi (ke tgh, tapi masih ada space poni ipon nya, jd kasi ignoressafearea)
+            Spacer()
         }
-        .padding()
     }
 }
 
