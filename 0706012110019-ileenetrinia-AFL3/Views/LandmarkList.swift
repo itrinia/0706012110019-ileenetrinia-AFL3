@@ -9,9 +9,14 @@ import SwiftUI
 
 struct LandmarkList: View {
     var body: some View {
-        List {
-            LandmarkRow(landmark: landmarks[0])
-            LandmarkRow(landmark: landmarks[1])
+        //kyknya ngerepeat sesuai id yg disetting? harusnya yes
+        // jd klo isinya itu ada parameter landmark [0][1] brti repeat 0,1 aja tp berkali2
+        // ^berlaku klo paramater id nya exist, semua dimunculin
+//        List(landmarks, id: \.id) { landmark in
+//            LandmarkRow(landmark: landmarks[0])
+//            LandmarkRow(landmark: landmarks[1])
+        List(landmarks) { landmark in
+            LandmarkRow(landmark: landmark)
         }
     }
 }
