@@ -12,7 +12,9 @@ struct LandmarkList: View {
     @State private var showFavoritesOnly = false
     
     var filteredLandmarks: [Landmark] {
-        landmarks.filter { landmark in
+        //modelData.landmarks krn mau manggil landmarks yg di model dat
+        // klo ga pke modelData, bintangnya ga keganti klo misal mau unstarred
+        modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
         }
     }

@@ -15,6 +15,7 @@
 		0428FB9129E8F42400D66720 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB9029E8F42400D66720 /* Landmark.swift */; };
 		0428FB9329E8F7CA00D66720 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB9229E8F7CA00D66720 /* LandmarkList.swift */; };
 		0428FB9529E8F90800D66720 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB9429E8F90800D66720 /* LandmarkDetail.swift */; };
+		047FC80829EE2E8D0030D068 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FC80729EE2E8D0030D068 /* FavoriteButton.swift */; };
 		04AD1C3D29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD1C3C29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift */; };
 		04AD1C3F29E4EE4D00114C5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD1C3E29E4EE4D00114C5D /* ContentView.swift */; };
 		04AD1C4129E4EE4F00114C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AD1C4029E4EE4F00114C5D /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		0428FB9029E8F42400D66720 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		0428FB9229E8F7CA00D66720 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		0428FB9429E8F90800D66720 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		047FC80729EE2E8D0030D068 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		04AD1C3929E4EE4D00114C5D /* 0706012110019-ileenetrinia-AFL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110019-ileenetrinia-AFL3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AD1C3C29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110019_ileenetrinia_AFL3App.swift; sourceTree = "<group>"; };
 		04AD1C3E29E4EE4D00114C5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,12 +53,9 @@
 		0428FB8B29E8F25200D66720 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				047FC80A29EE2F080030D068 /* Landmarks */,
+				047FC80929EE2EE50030D068 /* Helpers */,
 				04AD1C3E29E4EE4D00114C5D /* ContentView.swift */,
-				0428FB7929E8E8DA00D66720 /* CircleImage.swift */,
-				0428FB8329E8ED3100D66720 /* MapView.swift */,
-				0428FB8E29E8F36B00D66720 /* LandmarkRow.swift */,
-				0428FB9229E8F7CA00D66720 /* LandmarkList.swift */,
-				0428FB9429E8F90800D66720 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -76,6 +75,26 @@
 				0428FB8529E8F0FA00D66720 /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		047FC80929EE2EE50030D068 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0428FB7929E8E8DA00D66720 /* CircleImage.swift */,
+				047FC80729EE2E8D0030D068 /* FavoriteButton.swift */,
+				0428FB8329E8ED3100D66720 /* MapView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		047FC80A29EE2F080030D068 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				0428FB9429E8F90800D66720 /* LandmarkDetail.swift */,
+				0428FB9229E8F7CA00D66720 /* LandmarkList.swift */,
+				0428FB8E29E8F36B00D66720 /* LandmarkRow.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		04AD1C3029E4EE4D00114C5D = {
@@ -189,6 +208,7 @@
 				04AD1C3F29E4EE4D00114C5D /* ContentView.swift in Sources */,
 				0428FB8429E8ED3100D66720 /* MapView.swift in Sources */,
 				04AD1C3D29E4EE4D00114C5D /* _706012110019_ileenetrinia_AFL3App.swift in Sources */,
+				047FC80829EE2E8D0030D068 /* FavoriteButton.swift in Sources */,
 				0428FB9329E8F7CA00D66720 /* LandmarkList.swift in Sources */,
 				0428FB9529E8F90800D66720 /* LandmarkDetail.swift in Sources */,
 				0428FB9129E8F42400D66720 /* Landmark.swift in Sources */,
