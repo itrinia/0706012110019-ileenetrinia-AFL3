@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    @State private var showFavoritesOnly = true
+    
+    var filteredLandmarks: [Landmark] {
+        landmarks.filter { landmark in
+            (!showFavoritesOnly || landmark.isFavorite)
+        }
+    }
+    
     var body: some View {
         //kyknya ngerepeat sesuai id yg disetting? harusnya yes
         // jd klo isinya itu ada parameter landmark [0][1] brti repeat 0,1 aja tp berkali2
@@ -16,7 +24,7 @@ struct LandmarkList: View {
         //            LandmarkRow(landmark: landmarks[0])
         //            LandmarkRow(landmark: landmarks[1])
         NavigationView {
-            List(landmarks) { landmark in
+            List(filteredLandmarks) { landmark in
                 NavigationLink {
                     LandmarkDetail(landmark: landmark)
                 } label: {
@@ -30,10 +38,10 @@ struct LandmarkList: View {
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
-            LandmarkList()
-                .previewDevice(PreviewDevice(rawValue: deviceName))
-                .previewDisplayName(deviceName)
-        }
+        //        ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
+        //            LandmarkList()
+        //                .previewDevice(PreviewDevice(rawValue: deviceName))
+        //                .previewDisplayName(deviceName)
+        LandmarkList()
     }
 }
