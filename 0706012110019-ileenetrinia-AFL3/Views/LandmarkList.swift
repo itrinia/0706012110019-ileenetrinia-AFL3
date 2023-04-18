@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
     
     var filteredLandmarks: [Landmark] {
@@ -48,6 +49,7 @@ struct LandmarkList: View {
             //                .previewDevice(PreviewDevice(rawValue: deviceName))
             //                .previewDisplayName(deviceName)
             LandmarkList()
+                .environmentObject(ModelData())
         }
     }
 }
