@@ -13,9 +13,22 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
+                modelData.features[0].image
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 200)
+                    .clipped()
+                //anjay keren
+                //biar kliatan ada yg "title" pic nya gitu
+                    .listRowInsets(EdgeInsets())
+                    //modifier pada List yang digunakan untuk menentukan jarak antara konten setiap baris dalam daftar (list). EdgeInsets() dipke buat mengatur tepi (margin) pada setiap sisi dari baris, seperti jarak dari atas, bawah, kiri, dan kanan. -> biar lebih ngezoom ajah biar ndak makan tempat banyak marginnya
+                
+                
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
-                    Text(key)
+                    //krn for each, yg di for each kan itu adalah ngepass category information dlm bentuk row
+                    CategoryRow(categoryName: key, items: modelData.categories[key]!)
                 }
+                .listRowInsets(EdgeInsets())
             }
             .navigationTitle("Featured")
         }

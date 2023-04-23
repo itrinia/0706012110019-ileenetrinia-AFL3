@@ -17,6 +17,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var state: String
     var description: String
     var isFavorite: Bool
+    var isFeatured: Bool
     
     //add a Category enumeration and a category property to the Landmark structure.
     //The landmarkData.json file already includes a category value for each landmark with one of three string values. By matching the names in the data file, i can rely on the structure’s Codable conformance to load the data. jd yg d bwh ini adlh memanggol 3 data ituu
