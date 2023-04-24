@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
+    @State private var showingProfile = false
     
     var body: some View {
         NavigationView {
@@ -21,7 +22,7 @@ struct CategoryHome: View {
                 //anjay keren
                 //biar kliatan ada yg "title" pic nya gitu
                     .listRowInsets(EdgeInsets())
-                    //modifier pada List yang digunakan untuk menentukan jarak antara konten setiap baris dalam daftar (list). EdgeInsets() dipke buat mengatur tepi (margin) pada setiap sisi dari baris, seperti jarak dari atas, bawah, kiri, dan kanan. -> biar lebih ngezoom ajah biar ndak makan tempat banyak marginnya
+                //modifier pada List yang digunakan untuk menentukan jarak antara konten setiap baris dalam daftar (list). EdgeInsets() dipke buat mengatur tepi (margin) pada setiap sisi dari baris, seperti jarak dari atas, bawah, kiri, dan kanan. -> biar lebih ngezoom ajah biar ndak makan tempat banyak marginnya
                 
                 
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
@@ -30,7 +31,24 @@ struct CategoryHome: View {
                 }
                 .listRowInsets(EdgeInsets())
             }
+            
+            //pick a list style that better suits the content.
+            .listStyle(.inset)
+            
             .navigationTitle("Featured")
+            
+            //aji2 memunculkan logo profile di pojok kanan atas
+            .toolbar {
+                Button {
+                    showingProfile.toggle()
+                } label: {
+                    Label("User Profile", systemImage: "person.crop.circle")
+                }
+            }
+            .sheet(isPresented: $showingProfile) {
+                ProfileHost()
+                    .environmentObject(modelData)
+            }
         }
     }
 }
