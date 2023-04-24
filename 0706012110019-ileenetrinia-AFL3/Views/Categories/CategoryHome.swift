@@ -14,15 +14,18 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
-                modelData.features[0].image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
-                //anjay keren
-                //biar kliatan ada yg "title" pic nya gitu
+                PageView(pages: modelData.features.map { FeatureCard(landmark: $0) })
+                    .aspectRatio(3 / 2, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
-                //modifier pada List yang digunakan untuk menentukan jarak antara konten setiap baris dalam daftar (list). EdgeInsets() dipke buat mengatur tepi (margin) pada setiap sisi dari baris, seperti jarak dari atas, bawah, kiri, dan kanan. -> biar lebih ngezoom ajah biar ndak makan tempat banyak marginnya
+                //                modelData.features[0].image
+                //                    .resizable()
+                //                    .scaledToFill()
+                //                    .frame(height: 200)
+                //                    .clipped()
+                //                //anjay keren
+                //                //biar kliatan ada yg "title" pic nya gitu
+                //                    .listRowInsets(EdgeInsets())
+                //                //modifier pada List yang digunakan untuk menentukan jarak antara konten setiap baris dalam daftar (list). EdgeInsets() dipke buat mengatur tepi (margin) pada setiap sisi dari baris, seperti jarak dari atas, bawah, kiri, dan kanan. -> biar lebih ngezoom ajah biar ndak makan tempat banyak marginnya
                 
                 
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
