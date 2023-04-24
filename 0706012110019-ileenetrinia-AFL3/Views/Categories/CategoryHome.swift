@@ -14,6 +14,7 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
+                //ini biar yg atas sndiri itu(gmbar pling gede) bisa geser"
                 PageView(pages: modelData.features.map { FeatureCard(landmark: $0) })
                     .aspectRatio(3 / 2, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
