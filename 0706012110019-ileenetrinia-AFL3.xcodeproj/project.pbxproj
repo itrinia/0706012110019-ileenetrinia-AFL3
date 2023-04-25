@@ -49,6 +49,7 @@
 		043DFBEF29F8222E008A3E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AD1C4029E4EE4F00114C5D /* Assets.xcassets */; };
 		043DFBF029F8222E008A3E65 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB8E29E8F36B00D66720 /* LandmarkRow.swift */; };
 		043DFBF129F8222E008A3E65 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428FB7929E8E8DA00D66720 /* CircleImage.swift */; };
+		043DFBF329F82402008A3E65 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DFBF229F82402008A3E65 /* LandmarkDetail.swift */; };
 		047FC80829EE2E8D0030D068 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FC80729EE2E8D0030D068 /* FavoriteButton.swift */; };
 		047FC80D29EE33C50030D068 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FC80C29EE33C50030D068 /* HexagonParameters.swift */; };
 		047FC81129EE36860030D068 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FC81029EE36860030D068 /* BadgeBackground.swift */; };
@@ -93,6 +94,7 @@
 		043DFBDC29F81BE1008A3E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043DFBDF29F81BE1008A3E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		043DFBE129F81BE1008A3E65 /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
+		043DFBF229F82402008A3E65 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		047FC80729EE2E8D0030D068 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		047FC80C29EE33C50030D068 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		047FC81029EE36860030D068 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 				043DFBDC29F81BE1008A3E65 /* Assets.xcassets */,
 				043DFBE129F81BE1008A3E65 /* MacLandmarks.entitlements */,
 				043DFBDE29F81BE1008A3E65 /* Preview Content */,
+				043DFBF229F82402008A3E65 /* LandmarkDetail.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				043DFBED29F8222E008A3E65 /* Profile.swift in Sources */,
 				043DFBEA29F8222E008A3E65 /* MapView.swift in Sources */,
 				043DFBEE29F8222E008A3E65 /* FavoriteButton.swift in Sources */,
+				043DFBF329F82402008A3E65 /* LandmarkDetail.swift in Sources */,
 				043DFBE529F8222E008A3E65 /* _706012110019_ileenetrinia_AFL3App.swift in Sources */,
 				043DFBDB29F81BDD008A3E65 /* ContentView.swift in Sources */,
 				043DFBE629F8222E008A3E65 /* Landmark.swift in Sources */,
