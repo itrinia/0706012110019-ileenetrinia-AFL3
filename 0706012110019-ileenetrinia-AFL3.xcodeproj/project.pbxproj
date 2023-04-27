@@ -34,6 +34,7 @@
 		043DFBCE29F6C9A0008A3E65 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DFBCD29F6C9A0008A3E65 /* PageView.swift */; };
 		043DFBD129F6D4BC008A3E65 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DFBD029F6D4BC008A3E65 /* PageControl.swift */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		043DFBDB29F81BDD008A3E65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DFBDA29F81BDD008A3E65 /* ContentView.swift */; };
 		043DFBDD29F81BE1008A3E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043DFBDC29F81BE1008A3E65 /* Assets.xcassets */; };
 		043DFBE029F81BE1008A3E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043DFBDF29F81BE1008A3E65 /* Preview Assets.xcassets */; };
@@ -53,6 +54,8 @@
 		043DFBF329F82402008A3E65 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DFBF229F82402008A3E65 /* LandmarkDetail.swift */; };
 		043DFBF529F829EE008A3E65 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DFBF429F829ED008A3E65 /* LandmarkCommands.swift */; };
 		043DFBF629F829EE008A3E65 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DFBF429F829ED008A3E65 /* LandmarkCommands.swift */; };
+=======
+>>>>>>> parent of d7d593d (c4 subchapter trkhir section 1 creating macos app done)
 =======
 >>>>>>> parent of d7d593d (c4 subchapter trkhir section 1 creating macos app done)
 		047FC80829EE2E8D0030D068 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FC80729EE2E8D0030D068 /* FavoriteButton.swift */; };
@@ -95,6 +98,7 @@
 		043DFBCD29F6C9A0008A3E65 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		043DFBD029F6D4BC008A3E65 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		043DFBD629F81BDD008A3E65 /* MacLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043DFBDA29F81BDD008A3E65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		043DFBDC29F81BE1008A3E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 		043DFBE129F81BE1008A3E65 /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
 		043DFBF229F82402008A3E65 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		043DFBF429F829ED008A3E65 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of d7d593d (c4 subchapter trkhir section 1 creating macos app done)
 =======
 >>>>>>> parent of d7d593d (c4 subchapter trkhir section 1 creating macos app done)
 		047FC80729EE2E8D0030D068 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
@@ -207,6 +213,7 @@
 			sourceTree = "<group>";
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		043DFBD729F81BDD008A3E65 /* MacLandmarks */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +235,8 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> parent of d7d593d (c4 subchapter trkhir section 1 creating macos app done)
 =======
 >>>>>>> parent of d7d593d (c4 subchapter trkhir section 1 creating macos app done)
 		047FC80929EE2EE50030D068 /* Helpers */ = {
@@ -368,6 +377,7 @@
 
 /* Begin PBXSourcesBuildPhase section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 		043DFBD229F81BDD008A3E65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,6 +398,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+=======
+>>>>>>> parent of d7d593d (c4 subchapter trkhir section 1 creating macos app done)
 =======
 >>>>>>> parent of d7d593d (c4 subchapter trkhir section 1 creating macos app done)
 		04AD1C3529E4EE4D00114C5D /* Sources */ = {
